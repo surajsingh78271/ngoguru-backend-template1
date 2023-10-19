@@ -10,8 +10,8 @@ const connectDB = async (DATABASE_URL)=>{
                 console.log("DB CONNECT SUCCESFULLY.")
             })
 
-    }catch(error){
-        console.log(error)
+    }catch(err){
+        console.log(err)
 
     }
    
